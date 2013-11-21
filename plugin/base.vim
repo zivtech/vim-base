@@ -13,6 +13,7 @@ set smartindent
 set smarttab
 set history=300
 set tags=tags;/
+nnoremap <esc> :noh<return><esc>
 
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
