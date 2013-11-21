@@ -15,6 +15,12 @@ set history=300
 set tags=tags;/
 nnoremap <esc> :noh<return><esc>
 
+"Custom key mapping
+map <S-u> :redo<cr>
+map <C-n> :tabn<cr>
+map <C-p> :tabp<cr>
+map <leader>p :!php -l "%:p"<cr>
+
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
 if has("autocmd")
