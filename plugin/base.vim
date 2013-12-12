@@ -13,7 +13,6 @@ set smartindent
 set smarttab
 set history=300
 set tags=tags;/
-nnoremap <esc> :noh<return><esc>
 
 "Custom key mapping
 map <S-u> :redo<cr>
